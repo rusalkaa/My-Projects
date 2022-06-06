@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey of Green</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+    crossorigin="anonymous">
+    <style>
+        h2 {
+            text-align: center;
+            color:rgb(235, 130, 200);
+            background: black;
+            width: 600px; 
+            padding : 5px;
+            text-align: center;
+            margin-left: 350px;
+            border-radius: 20px;
+        }
+
+        p {
+            text-align: center;
+            background: black;
+            width: 700px;
+            color: violet;
+            margin-left: 450px;
+            padding: 5px;
+            border-radius: 20px;
+        }
+
+        form {
+            width: 500px;
+            margin-left: 400px;
+        }
+
+        body {
+            background-image: url('https://wallpapercave.com/wp/wp2925028.jpg');
+        }
+
+        #sending-button {
+            background-color: pink;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="opacity-75 col-6">WELCOME TO THE OUR NATURE SURVEY </h2>
+        <p class="opacity-75 col-4">This survey is about to find out how many people contribute the nature. Your all information will be safe with us! </p>
+        <p class="opacity-75 col-4">Let's start! Please answer all questions with honesty. </p>
+    </div>
+
+    <div class="container">
+        <form class="bg-opacity-50 text-light bg-dark">
+
+            <div class="form-group">
+                <label for="name">Name and Surname:</label>
+                <input type="text" name="name" id="name" class="form-control">
+            </div>
+
+            <br>
+
+            <select aria-label=".form-select-lg example"  class="form-select form-select-sm">
+                <option selected> Please choose your gender</option>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+
+            <div class="form-group">
+                <label for="e-mail">E-mail:</label>
+                <input type="text" name="email" id="email" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="aboutyou" >About You (Briefly):</label>
+                <textarea name="aboutyou" id="aboutyou" class="form-control" rows="5"></textarea>
+            </div>
+
+            <br>
+
+            <select class="form-select form-select-sm mb-1"  name="language" id="language">
+                <option>English</option>
+                <option selected>Please choose a language</option>
+                <option>Turkish</option>
+                <option> Chinese</option>
+                <option>Spanish</option>
+                <option>Russian</option>
+            </select>
+            <div class="form-check">
+                <input type="checkbox" type="checkbox" value="" id="accept">
+                <label for="accept" class="form-check-label">
+                    I read and accept terms and conditions.
+                </label>
+            </div>
+            <hr>
+            <div class="form-group">
+                <label for="question1">1. What do you do with a piece of trash when there is no trash can near you?</label>
+                <textarea name="question1" id="question1" class="form-control" rows="1"></textarea>
+            </div>
+
+            <br>
+
+            <div class="form-group">
+                <label for="question2">2. Do you recycle? If so, what kinds of things do you recycle?</label>
+                <textarea name="question2" id="question2"  rows="1" class="form-control"></textarea>
+            </div>
+
+            <br>
+
+            <div class="form-group">
+                <label for="question3">3. What do you do to conserve energy? For example, do you turn the lights off when you leave the room?</label>
+                <textarea name="question3" id="question3"  rows="1" class="form-control"></textarea>
+            </div>
+
+            <br>
+
+            <div class="form-group">
+                <label for="question4">4. Do you try to buy environmentally friendly products? If so, give some examples.</label>
+                <textarea name="question4" id="question4"  rows="1" class="form-control"></textarea>
+            </div>
+
+            <br>
+
+            <div class="form-group">
+                <label for="question5">5. Have you ever donated your time or money to an environmental organization? Which organization did you help? What is their focus?</label>
+                <textarea name="question5" id="question5"  rows="1" class="form-control"></textarea>
+            </div>
+            <br>
+
+            <div class="d-grid gap-2">
+                <button type="button" class="btn btn-info btn-sm" id="sending-button">
+                    Send my answers. 
+                </button>
+
+                <br>
+           
+        </form>
+    </div>
+
+    
+</body>
+</html>
