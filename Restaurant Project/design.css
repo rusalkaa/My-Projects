@@ -1,0 +1,78 @@
+h1 {
+    color: orange;
+    margin-left: 600px;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 50px;
+}
+h3 {
+    color: rgb(211, 211, 77);
+    margin-bottom: 15px;
+    margin-left: 150px;
+    font-family: 'Gluten', cursive;
+}
+
+/*.card{
+    size: small;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+*/
+
+.nav{
+    background-color:rgb(226, 183, 43);
+}
+
+.nav-item{
+    color: white;
+}
+.card-body{
+    color: rgb(84, 225, 65)
+    font-family: 'Gluten', cursive;
+
+}
+
+.card-title {
+    color: orange;
+    margin-top: 10px;
+    font-family: 'Pacifico', cursive;
+}
+
+.btn {
+    color: white;
+}
+
+.card{
+    
+    margin-top: 50px;
+    padding: 10px;
+    align-content: center;
+}
+
+i{
+    color: azure;
+}
+
+.carousel-inner, .carousel-item{
+    height: 350px;
+}
+
+#first-pic{
+    width: 300px;
+    height: 1000px;
+}
+
+#aboutus-1{
+    height: 800px;
+}
+
+#aboutus-2{
+    height: 750px;
+}
+
+h2{
+    color: orangered;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
